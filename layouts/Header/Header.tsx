@@ -34,7 +34,7 @@ const Header = () => {
             <ul className="right-nav d-flex justify-content-end" style={{ gap: "10px" }}>
               <li>
                 <div className="hamburger-menu d-md-block d-lg-none">
-                  <a href="javascript:void(0);">
+                  <a href="">
                     <i className="far fa-bars"></i>
                   </a>
                 </div>
