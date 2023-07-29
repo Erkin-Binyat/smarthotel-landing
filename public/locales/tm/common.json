@@ -1,0 +1,19 @@
+{
+  "navigation": {
+    "about": "Biz barada",
+    "features": "Features",
+    "pricing": "Bahalar",
+    "partners": "Our partners",
+    "contact": "Habarlasmak"
+  },
+  "hero": {
+    "title": "SmartHotel – Myhmanhanalar Üçin Sanly Dolandyryş Ulgamy",
+    "description": "“SmartHotel” ulgamy, myhmanhanalary awtomatiki usulda netijeli dolandyrmak üçin doly çözgüt hödürleýär"
+  },
+  "features": {
+    "frontdesk": "Front Desk",
+    "housekeeping": "Housekeeping",
+    "reporting": "Giňişleýin hasabat we analitika",
+    "usage": "Ulanyş ýeňilligi we türgenleşdiriş okuwy"
+  }
+}

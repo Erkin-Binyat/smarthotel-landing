@@ -1,0 +1,28 @@
+{
+  "navigation": {
+    "about": "About",
+    "features": "Features",
+    "pricing": "Pricing",
+    "partners": "Our partners",
+    "contact": "Contact us"
+  },
+  "hero": {
+    "title": "The Software That Powers Hospitality",
+    "description": "SmartHotel provides a complete solution for effective hotel management"
+  },
+  "features": {
+    "frontdesk": "Front Desk Operations",
+    "housekeeping": "Housekeeping",
+    "reporting": "Advanced Reporting and Analytics",
+    "usage": "Easy usage and training",
+    
+    "reservation": "Reservation management",
+    "multipleUser": "Multiple user accounts",
+    "room": "Room management",
+    "modify": "Modify bookings and payments",
+    "assignTasks": "Assign tasks and team members",
+    "inventory": "Real-time room inventory",
+
+    "control": "Display and control of current room status"
+  }
+}
