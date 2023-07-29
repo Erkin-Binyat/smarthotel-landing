@@ -26,7 +26,7 @@ const LanguageSwitcher= () => {
 
   return (
     <select className='form-select' style={{marginTop: "-5px",textTransform: 'uppercase', paddingBlock: "11px"}} onChange={(e) => {switchToLocale(e.target.value)}}>
-      <option value="" selected>{currentLanguage}</option>
+      <option defaultValue="">{currentLanguage}</option>
       {locales.map((locale) => {
         const label = locale;
         const option = {
