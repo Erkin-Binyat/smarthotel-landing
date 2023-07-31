@@ -1,6 +1,8 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
 import { Features, Header, Hero, Sidebar, Download, Pricing, Clients, Services, Contact, Footer } from "@/layouts";
+import { Suspense } from 'react';
+import Loading from './loading';
 
 export default function Home() {
   return (
@@ -13,16 +15,18 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </Head>
-      <Header />
-      <Sidebar />
-      <Hero />
-      <Features />
-      <Download />
-      <Pricing />
-      <Services />
-      <Clients />
-      <Contact />
-      <Footer />
+      <Suspense fallback={<Loading/>}>
+        <Header />
+        <Sidebar />
+        <Hero />
+        <Features />
+        <Download />
+        <Pricing />
+        <Services />
+        <Clients />
+        <Contact />
+        <Footer />
+      </Suspense>
     </>
   )
 };
