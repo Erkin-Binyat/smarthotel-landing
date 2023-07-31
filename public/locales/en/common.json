@@ -13,7 +13,7 @@
   "features": {
     "frontdesk": "Front Desk Operations",
     "housekeeping": "Housekeeping",
-    "reporting": "Advanced Reporting and Analytics",
+    "reporting": "Reporting - Analytics",
     "usage": "Easy usage and training",
     
     "reservation": "Reservation management",
@@ -23,6 +23,38 @@
     "assignTasks": "Assign tasks and team members",
     "inventory": "Real-time room inventory",
 
-    "control": "Display and control of current room status"
+    "controlStatus": "Display and control of current room status",
+    "trackTasks": "Assign and track tasks",
+    "staffManagement": "Staff management",
+    "controlManage": "Control and manage work divisions",
+    
+    "overallPerform": "Control of overall performance",
+    "accountingReports": "Accounting reports",
+    "financialSit": "Analyze financial situation",
+    "evaluatePerform": "Evaluate hotel performance",
+    "historicalData": "Historical information data",
+    "integrationExcel": "Integration with Excel",
+    "revenueProject": "Hotel revenue project",
+
+    "keepOperations": "Keep tracking all operations",
+    "dataSecurity": "Data security via cloud servers",
+    "distanceTraining": "Remote accessibility makes distance training"
+  },
+  "pricing": {
+    "title": "Pricing Plan",
+    "heading": "All in One Hotel Management Software with reasonable price",
+    "description": "Simple, transparent pricing with full features included and technical services",
+    "request": "Request price"
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "subheading": "We're here to help whenever you need",
+    "location": "Olympic village, No:7, Business Center \"Sport\", Floor 5, Ashgabat, Turkmenistan",
+    "name": "Your name",
+    "mail": "Email Address",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "message": "Write Message",
+    "submit": "Send message"
   }
 }

@@ -11,10 +11,50 @@
     "description": "“SmartHotel” представляет комплексное решение для эффективного управления отелем."
   },
   "features": {
-    "frontdesk": "Фронт-офис Операции",
+    "frontdesk": "Фронт-офис",
     "housekeeping": "Хаускипинг",
     "reporting": "Расширенная отчетность и аналитика",
-    "usage": "Простота использования и обучения"
+    "usage": "Простота использования и обучения",
     
+    "reservation": "Управление бронированием",
+    "multipleUser": "Несколько учетных записей пользователей",
+    "room": "Управление гостиничным номером",
+    "modify": "Изменение бронирований и платежей",
+    "assignTasks": "Назначение задач и членов команды",
+    "inventory": "Учет инвентаря гостиницы",
+
+    "controlStatus": "Контроль состояния номеров",
+    "trackTasks": "Назначение и отслеживание задач",
+    "staffManagement": "Управление персоналом",
+    "controlManage": "Управление рабочими подразделениями",
+    
+    "overallPerform": "Контроль общей эффективности",
+    "accountingReports": "Бухгалтерские отчеты",
+    "financialSit": "Анализ финансового состояния",
+    "evaluatePerform": "Анализ производительности отеля",
+    "historicalData": "Контроль информационных данных",
+    "integrationExcel": "Интеграция с Excel",
+    "revenueProject": "Отчет о доходах отеля",
+
+    "keepOperations": "Отслеживание всех операций",
+    "dataSecurity": "Обеспечение безопасности данных при помощи локальных серверов",
+    "distanceTraining": "Возможность обучения через удаленный доступ"
+  },
+  "pricing": {
+    "title": "тарифный план",
+    "heading": "SmartHotel – это комплексное программное обеспечение для управления отелем по выгодной цене",
+    "description": "Простая, прозрачная цена с включенными полными функциями и услугами технической поддержки",
+    "request": "Отправить запрос"
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "subheading": "We're here to help whenever you need",
+    "location": "Olympic village, No:7, Business Center \"Sport\", Floor 5, Ashgabat, Turkmenistan",
+    "name": "Your name",
+    "mail": "Email Address",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "message": "Write Message",
+    "submit": "Send message"
   }
 }

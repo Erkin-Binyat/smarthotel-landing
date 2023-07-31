@@ -1,8 +1,8 @@
 {
   "navigation": {
     "about": "Biz barada",
-    "features": "Features",
-    "pricing": "Bahalar",
+    "features": "Aýratynlyklar",
+    "pricing": "Nyrh",
     "partners": "Our partners",
     "contact": "Habarlasmak"
   },
@@ -13,7 +13,48 @@
   "features": {
     "frontdesk": "Front Desk",
     "housekeeping": "Housekeeping",
-    "reporting": "Giňişleýin hasabat we analitika",
-    "usage": "Ulanyş ýeňilligi we türgenleşdiriş okuwy"
+    "reporting": "Hasabat we Analitika",
+    "usage": "Ulanyş ýeňilligi we türgenleşdiriş okuwy",
+
+    "reservation": "Rezerwasiýalary dolandyryş",
+    "multipleUser": "Birden köp ulanyjy hasaby",
+    "room": "Otaglary dolandyryş",
+    "modify": "Rezerwasiýalary we tölegleri üýtgetmek",
+    "assignTasks": "Işgär wezipesini we işleri bellemek",
+    "inventory": "Otaglaryň inwentarizasiýasy",
+
+    "controlStatus": "Otaglaryň ýagdaýynyň bellenen tertipde gözegçiligi",
+    "trackTasks": "Ýumuşlaryň tabşyrylyşy we gözegçiligi",
+    "staffManagement": "Işgärleriň dolandyrylyşy",
+    "controlManage": "Iş paýlanylyşynyň gözegçiligi we dolandyrylyşy",
+    
+    "overallPerform": "Umumy işjeňlige gözegçilik etmek",
+    "accountingReports": "Buhgalteriýa hasabatlary",
+    "financialSit": "Finans ýagdaýynyň analizi",
+    "evaluatePerform": "Myhmanhananyň umumy işjeňligini barlamak",
+    "historicalData": "Hronologiki maglumatlaryň datasy",
+    "integrationExcel": "Excel programmasy bilen integrasiýaly işlemek",
+    "revenueProject": "Myhmanhananyň girdeji hasabaty",
+
+    "keepOperations": "Ähli işleri hereketleri yzarlamak",
+    "dataSecurity": "Ýerli serwerler arkaly maglumat howpsuzlygy",
+    "distanceTraining": "Ulgama uzakdan baglanmak arkaly islendik ýerden tälim okuwyny geçme mümkinçiligi"
+  },
+  "pricing": {
+    "title": "nyrh meýilnamasy",
+    "heading": "Amatly baha bilen sanly myhmanhana dolandyryş ulgamy",
+    "description": "Ulgamyň ähli aýratynlyklaryny we tehniki goldawy öz içine alýan ýönekeý we anyk baha",
+    "request": "Talapnama ugradyň"
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "subheading": "We're here to help whenever you need",
+    "location": "Olympic village, No:7, Business Center \"Sport\", Floor 5, Ashgabat, Turkmenistan",
+    "name": "Your name",
+    "mail": "Email Address",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "message": "Write Message",
+    "submit": "Send message"
   }
 }
