@@ -1,12 +1,6 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
 import { Features, Header, Hero, Sidebar, Download, Pricing, Clients, Services, Contact, Footer } from "@/layouts";
-import { Inter } from "next/font/google";
-
-const inter = Inter({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
-  subsets: ["latin"]
-});
 
 export default function Home() {
   return (
