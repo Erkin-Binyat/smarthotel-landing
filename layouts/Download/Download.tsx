@@ -9,15 +9,15 @@ const Download = () => {
 				<div className="col-xxl-8 col-xl-8 offset-xxl-2 offset-xl-2 wow fadeInUp2 animated" data-wow-delay="0.1s">
 					<div className="download_wrapper">
 						<div className="section-title white-title text-center mb-50">
-							<h5 className="wow fadeInUp2 animated" data-wow-delay="0.1s">One platform, endless opportunities
+							<h5 className="animation" data-aos="fade">One platform, endless opportunities
 							</h5>
-							<h2 className="wow fadeInUp2 animated" data-wow-delay="0.1s">Built for hotels of all sizes
+							<h2 className="animation" data-aos="fade-up">Built for hotels of all sizes
 							</h2>
 						</div>
 					</div>
 				</div>
 				<div className="col-xl-12">
-					<div className="dashbord_img-02 pos-rel pt-120 text-center wow fadeInUp2 animated" data-wow-delay="0.3s">
+					<div className="dashbord_img-02 pos-rel pt-120 text-center animation" data-aos="fade-up">
 						<img src="./assets/img/bg/04.png" alt=""/>
 					</div>
 				</div>

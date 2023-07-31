@@ -28,7 +28,7 @@ const Services = () => {
 			const active = i + 1;
 			const activeTab = active === index;
 
-			return <CoreFeature service={service} activeTab={activeTab}/> 
+			return <CoreFeature service={service} key={i} activeTab={activeTab}/> 
 		}) : null
 	}, [services, index]);
 

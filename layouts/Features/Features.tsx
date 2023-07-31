@@ -21,11 +21,11 @@ const Features = () => {
 				</div>
 			</div>
 			<div className="row justify-content-start mb-20">
-				<div className="col-xxl-6 col-xl-6 ">
+				<div className="col-xxl-6 col-xl-6 animation" data-aos="fade-up">
 					<p className="text-left">SmartHotel is a hotel management system developed by local software specialists. Managing hotel operations is simplified with SmartHotel management technology, which controls processes for improved efficiency. SmartHotel offers an intuitive user interface, comprehensive functionality for all areas of hotel management, secure data storage and meets the needs of all types of hotels. </p>
 				</div>
 			</div>
-			<div className="row justify-content-end mb-40">
+			<div className="row justify-content-end mb-40" data-aos="fade-up">
 				<div className="col-xxl-6 col-xl-6 ">
 					<p className="text-center">The software provides key features as; front desk & back office operations (with integrated accounting), reservation management, housekeeping, assigning rooms, managing room inventory, and performing accounting and billing functions. </p>
 				</div>
