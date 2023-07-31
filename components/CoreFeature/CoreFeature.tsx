@@ -1,10 +1,16 @@
 import { CoreFeatureProps } from "@/public/types";
+import { useEffect } from "react";
+import AOS from "aos";
 
 const CoreFeature = ({service, activeTab}: CoreFeatureProps) => {
   const { content: { title, heading, desc, img } } = service;
 
+  useEffect(() => {
+    AOS.refresh();
+  }, [activeTab]);
+
   return (
-    <div className={activeTab ? "tab-pane fade show active" : "tab-pane fade show"} id="home" role="tabpanel" aria-labelledby="home-tab" key={title}>
+    <div className={activeTab ? "tab-pane active animation" : "tab-pane"} data-aos={"fade"} id="home" role="tabpanel" aria-labelledby="home-tab">
     <div className="row align-items-center mt-55">
       <div className="col-xxl-4 col-xl-5 col-lg-6 col-md-12">
         <div className="feature_wrapper_02 mb-30">

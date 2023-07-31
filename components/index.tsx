@@ -1,4 +1,4 @@
-import FeatureCard from "./FeatureCard/FeatureCard";
+import FeatureCard from "./FeatureCard/featureCard";
 import LanguageSwitcher from "./LanguageSwitcher/LanguageSwitcher";
 import CoreFeature from "./CoreFeature/CoreFeature";
 

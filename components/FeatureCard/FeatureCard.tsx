@@ -9,9 +9,8 @@ type FeatureProps = {
 
 const FeatureCard = ({title, img, content, index}: FeatureProps) => {
   const { t } = useTranslation();
-
   return (
-    <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-6">
+    <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-6" data-aos={"fade-up"}>
     <div className="do_box do_box_02 grey-bg text-center mb-30">
       <div className={index < 1 ? "do_box__icon mb-40" : `do_box__icon icon_0${index + 1} mb-40`}>
         <img alt={title} src={img}
