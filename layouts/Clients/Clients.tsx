@@ -2,6 +2,9 @@ import React from "react";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import dynamic from "next/dynamic";
+import Image from "next/image";
+import yelken from "@/public/assets/img/brand/yelken.svg";
+import divan from "@/public/assets/img/brand/Divan.svg";
 
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
@@ -32,12 +35,12 @@ const Clients = () => {
             <OwlCarousel dots={false} loop responsive={Responsive} autoplay autoplayTimeout={3000}>
             <div className="col-xl-2" style={{width: "250px"}}>
               <div className="slide_img">
-                <a href="#"><img src="./assets/img/brand/divan.svg" alt=""/></a>
+                <a href="#"><Image src={divan} width={250} alt="yelken"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "250px"}}>
               <div className="slide_img">
-                <a href="#"><img src="./assets/img/brand/yelken.svg" alt=""/></a>
+                <a href="#"><Image src={yelken} width={250} alt="yelken"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "250px"}}>
@@ -57,12 +60,12 @@ const Clients = () => {
             </div>
             <div className="col-xl-2" style={{width: "250px"}}>
               <div className="slide_img">
-                <a href="#"><img src="./assets/img/brand/divan.svg" alt=""/></a>
+                <a href="#"><Image src={divan} width={250} alt="yelken"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "250px"}}>
               <div className="slide_img">
-                <a href="#"><img src="./assets/img/brand/yelken.svg" alt=""/></a>
+                <a href="#"><Image src={yelken} width={250} alt="yelken"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "250px"}}>
