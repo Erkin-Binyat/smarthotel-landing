@@ -1,6 +1,6 @@
 "use client"
 import { FeatureCard } from "@/components";
-import { features } from "@/static";
+import { features } from "@/public/static";
 import { useMemo } from "react";
 
 const Features = () => {
@@ -10,7 +10,7 @@ const Features = () => {
   }, [features]);
   
   return (
-    <section className="what-do-area-02 what-do-area-06 pt-45 pb-100">
+    <section className="what-do-area-02 what-do-area-06 pt-140 pb-100" id="features">
 		<div className="container">
 			<div className="row justify-content-center">
 				<div className="col-xxl-6 col-xl-6 wow fadeInUp2 animated" data-wow-delay="0.1s">
