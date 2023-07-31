@@ -2,6 +2,7 @@ import { useTranslation } from "next-i18next";
 
 const Hero = () => {
   const { t } = useTranslation("common");
+  
   return (
     <>
       <div className="hero-area hero-area-02 hero-area-06 pos-rel">
@@ -17,7 +18,7 @@ const Hero = () => {
                 </h2>
                 <p id="headerAbout" className="wow fadeInUp2 animated" data-wow-delay=".4s">{t("hero.description")}</p>
                 <ul className="btn-list mt-35 wow fadeInUp2 animated" data-wow-delay=".6s">
-                  <li><a className="theme_btn theme_btn_bg" href="javascript: scrollToWhatWeDo();">discover more
+                  <li><a className="theme_btn theme_btn_bg" href="#features">discover more
                     <i className="fas fa-chevron-right"></i></a>
                   </li>
                 </ul>
@@ -27,7 +28,7 @@ const Hero = () => {
         </div>
       </div>
       <div id="what"></div>
-      <div style={{ marginBottom: "131px" }} id="features"></div> </>
+    </>
   )
 }
 
