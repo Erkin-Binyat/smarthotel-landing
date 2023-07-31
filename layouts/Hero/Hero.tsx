@@ -12,7 +12,7 @@ const Hero = () => {
         <img className="shape-one" src="./assets/img/shape/16.png" alt="" />
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-xxl-5 col-xl-5 col-lg-10">
+            <div className="col-xxl-5 col-xl-5 col-lg-6">
               <div className="hero__content hero__content__02 hero__content__06 text-left">
                 <h2 id="header-intro" className="main-title mb-20 animation" data-aos={"fade-up"}>{t("hero.title")}
                 </h2>
