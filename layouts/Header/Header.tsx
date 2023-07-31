@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "@/public/assets/img/logo/logo.png";
 import { useTranslation } from "next-i18next";
-import LanguageSwitcher from "@/components/LanguageSwitcher/LanguageSwitcher";
+import { LanguageSwitcher } from "@/components";
 
 const Header = () => {
   const { t } = useTranslation("common");
@@ -23,9 +23,9 @@ const Header = () => {
               <nav>
                 <ul>
                   <li><a style={{ cursor: "pointer" }} id="about">{t("navigation.about")}</a></li>
-                  <li><a style={{ cursor: "pointer" }} id="featuresLink">{t("navigation.features")}</a></li>
-                  <li><a id="pricingLink" style={{ cursor: "pointer" }}>{t("navigation.pricing")}</a></li>
-                  <li><a style={{ cursor: "pointer" }} id="partnerstLink">{t("navigation.partners")}</a></li>
+                  <li><a style={{ cursor: "pointer" }} href="#features" id="featuresLink">{t("navigation.features")}</a></li>
+                  <li><a id="pricingLink" href="#pricing" style={{ cursor: "pointer" }}>{t("navigation.pricing")}</a></li>
+                  <li><a style={{ cursor: "pointer" }} href="#partners" id="partnerstLink">{t("navigation.partners")}</a></li>
                 </ul>
               </nav>
             </div>
@@ -40,7 +40,7 @@ const Header = () => {
                 </div>
               </li>
               <li className="d-none d-lg-inline-block">
-                <a id="contactLink" className="theme_btn theme_btn_bg white_btn"> {t("navigation.contact")}<i
+                <a id="contactLink" href="#contactUs" className="theme_btn theme_btn_bg white_btn"> {t("navigation.contact")}<i
                   className="fas fa-chevron-right"></i></a>
               </li>
               <li className="d-none d-lg-inline-block" style={{ paddingTop: "5px", height: "fit-content" }}>
