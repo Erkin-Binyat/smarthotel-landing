@@ -1,17 +1,8 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
-import Link from "next/link";
-import { useRouter } from 'next/router';
-import { useTranslation } from 'next-i18next';
-import { Header, Hero, Sidebar } from "@/layouts";
-
-const inter = Inter({ subsets: ['latin'] })
+import { Features, Header, Hero, Sidebar, Download, Pricing, Clients, Services, Contact, Footer } from "@/layouts";
 
 export default function Home() {
-  const router = useRouter();
-  const { t } = useTranslation();
-
   return (
     <>
       <Head>
@@ -23,6 +14,13 @@ export default function Home() {
       <Header />
       <Sidebar />
       <Hero/>
+      <Features />
+      <Download />
+      <Pricing />
+      <Services />
+      <Clients />
+      <Contact />
+      <Footer />
     </>
   )
 };
