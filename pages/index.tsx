@@ -1,6 +1,6 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
-import { Features, Header, Hero, Sidebar, Download, Pricing, Clients, Services, Contact, Footer } from "@/layouts";
+import { Features, Header, Hero, Download, Pricing, Clients, Services, Contact, Footer } from "@/layouts";
 import { Suspense } from 'react';
 import Loading from './loading';
 
@@ -17,7 +17,6 @@ export default function Home() {
       </Head>
       <Suspense fallback={<Loading/>}>
         <Header />
-        <Sidebar />
         <Hero />
         <Features />
         <Download />
