@@ -6,7 +6,7 @@ const Sidebar = () => {
     <>
       <aside className="slide-bar">
         <div className="close-mobile-menu">
-          <a href="javascript:void(0);"><i className="fas fa-times"></i></a>
+          <a href=""><i className="fas fa-times"></i></a>
         </div>
         <nav className="side-mobile-menu">
           <ul id="mobile-menu-active">
