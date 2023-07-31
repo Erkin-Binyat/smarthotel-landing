@@ -1,12 +1,20 @@
 import { useTranslation } from "next-i18next"
+import Image from "next/image";
+import times from "@/public/assets/img/times.svg";
 
-const Sidebar = () => {
+type BarProps = {
+  open: boolean;
+  toggle: () => void;
+};
+
+
+const Sidebar = ({open, toggle}: BarProps) => {
   const { t } = useTranslation("common");
   return (
     <>
-      <aside className="slide-bar">
+      <aside className={open ? "slide-bar show" : "slide-bar"}>
         <div className="close-mobile-menu">
-          <a href=""><i className="fas fa-times"></i></a>
+          <button onClick={() => toggle()} className="btn p-0"><Image src={times} width={20} height={20} alt={"times"} priority /></button>
         </div>
         <nav className="side-mobile-menu">
           <ul id="mobile-menu-active">
