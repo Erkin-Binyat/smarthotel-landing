@@ -21,7 +21,7 @@ export default function Home() {
       </Head>
       <Header />
       <Sidebar />
-      <Hero/>
+      <Hero />
       <Features />
       <Download />
       <Pricing />
