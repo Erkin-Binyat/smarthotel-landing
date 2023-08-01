@@ -15,7 +15,7 @@ const Features = () => {
     <section className="what-do-area-02 what-do-area-06 pt-140 pb-100" id="features">
 		<div className="container">
 			<div className="row justify-content-center">
-				<div className="col-xxl-6 col-xl-6 wow fadeInUp2 animated" data-wow-delay="0.1s">
+				<div className="col-xxl-6 col-xl-6 aos-init aos-animate" data-aos="fade-up">
 					<div className="section-title blue-title text-center pr-50 pl-50 mb-40">
 						<h2>Complete solution for
 							hotel management</h2>
@@ -23,11 +23,11 @@ const Features = () => {
 				</div>
 			</div>
 			<div className="row justify-content-start mb-20">
-				<div className="col-xxl-6 col-xl-6 animation" data-aos="fade-up">
+				<div className="col-xxl-6 col-xl-6 aos-init aos-animate" data-aos="fade-up">
 					<p className="text-left">{t("about.desc1")}</p>
 				</div>
 			</div>
-			<div className="row justify-content-end mb-40" data-aos="fade-up">
+			<div className="row justify-content-end mb-40 aos-init aos-animate" data-aos="fade-up">
 				<div className="col-xxl-6 col-xl-6 ">
 					<p>{t("about.desc2")}</p>
 					<p className="pt-20">{t("about.desc3")}</p>
