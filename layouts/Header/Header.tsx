@@ -5,31 +5,26 @@ import { LanguageSwitcher } from "@/components";
 import useToggle from "@/hooks/useToggle";
 import { Sidebar } from "..";
 import bars from "@/public/assets/img/bars.svg";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const { t } = useTranslation("common");
   const { open, toggle } = useToggle();
-  const [ scrollY, setScrollY ] = useState(false);
+  const [ scrollY, setScrollY ] = useState(0);
 
   const handleScroll = () => {
     const offset = window.scrollY;
+    setScrollY(offset);
+  };
 
-    if (offset < 200) {
-        setScrollY(true);
-    }
-    else {
-        setScrollY(false);
-    }
-}
-useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
-})
+  useEffect(() => {
+      window.addEventListener('scroll', handleScroll)
+  })
   
   useEffect(() => {
     const header = document.querySelector(".main-header-area");
 
-    if(scrollY) {
+    if(scrollY < 200) {
       header?.classList.remove("sticky");
     } else {
       header?.classList.add("sticky");
