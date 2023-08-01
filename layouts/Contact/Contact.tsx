@@ -1,3 +1,4 @@
+import ContactForm from "@/components/ContactForm/ContactForm";
 import { useTranslation } from "next-i18next";
 
 const Contact = () => {
@@ -22,42 +23,7 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="col-xxl-6 offset-xxl-2 col-lg-6">
-						<div className="contact-form">
-							<form className="form" id="contact-form" method="POST" action="send"
-								encType="application/x-www-form-urlencoded">
-								<div className="row">
-									<div className="col-xl-6">
-										<input className="contact__input" type="text" id="name" name="name" placeholder={t("contact.name")} required />
-									</div>
-									<div className="col-xl-6">
-										<input className="contact__input" type="email" id="email" name="email" placeholder={t("contact.mail")}
-											required />
-									</div>
-								</div>
-								<div className="row">
-									<div className="col-xl-6">
-										<input className="contact__input" type="text" id="phone" name="phone" placeholder={t("contact.phone")} />
-									</div>
-									<div className="col-xl-6">
-										<input className="contact__input" type="text" id="subject" name="subject" placeholder={t("contact.subject")} />
-									</div>
-								</div>
-								<div className="row">
-									<div className="col-12">
-										<textarea className="contact__input contact__input-messege" id="message" name="message"
-											placeholder={t("contact.message")} required minLength={10}></textarea>
-									</div>
-								</div>
-								<div className="row">
-									<div className="col-12">
-										<div className="subs-btn">
-											<button className="theme_btn theme_btn_bg btn" type="submit">{t("contact.submit")} <i
-												className="fas fa-chevron-right"></i></button>
-										</div>
-									</div>
-								</div>
-							</form>
-						</div>
+						<div className="contact-form"><ContactForm/></div>
 					</div>
 				</div>
 			</div>
