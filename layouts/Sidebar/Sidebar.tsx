@@ -1,6 +1,7 @@
 import { useTranslation } from "next-i18next"
 import Image from "next/image";
 import times from "@/public/assets/img/times.svg";
+import { LanguageSwitcher } from "@/components";
 
 type BarProps = {
   open: boolean;
@@ -24,6 +25,7 @@ const Sidebar = ({open, toggle}: BarProps) => {
             <li><a id="contactLink-2" style={{cursor: "pointer"}}>{t("navigation.contact")}</a></li>
           </ul>
         </nav>
+        <LanguageSwitcher />
       </aside>
       <div className="body-overlay"></div>
     </>
