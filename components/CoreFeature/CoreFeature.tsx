@@ -10,7 +10,7 @@ const CoreFeature = ({service, activeTab}: CoreFeatureProps) => {
   }, [activeTab]);
 
   return (
-    <div className={activeTab ? "tab-pane active animation" : "tab-pane"} data-aos={"fade"} id="home" role="tabpanel" aria-labelledby="home-tab">
+    <div className={activeTab ? "tab-pane active aos-init aos-animate" : "tab-pane aos-init aos-animate"} data-aos={"fade"} id="home" role="tabpanel" aria-labelledby="home-tab">
     <div className="row align-items-center mt-55">
       <div className="col-xxl-4 col-xl-5 col-lg-6 col-md-12">
         <div className="feature_wrapper_02 mb-30">
