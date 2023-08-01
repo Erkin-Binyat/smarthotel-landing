@@ -13,15 +13,13 @@ const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
 const Responsive = {
   0: {
     items: 1,
-    margin: 2
   },
   768: {
     items: 2,
-    margin: 2
   },
   1024: {
     items: 4,
-    margin: 10
+    margin: 10,
   }
 }
 
@@ -33,52 +31,52 @@ const Clients = () => {
         <div className="container">
           <div className="row brand-active">
             <OwlCarousel dots={false} loop responsive={Responsive} autoplay autoplayTimeout={3000}>
-            <div className="col-xl-2" style={{width: "250px"}}>
+            <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
                 <a href="#"><Image src={divan} width={250} alt="yelken"/></a>
               </div>
             </div>
-            <div className="col-xl-2" style={{width: "250px"}}>
+            <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
                 <a href="#"><Image src={yelken} width={250} alt="yelken"/></a>
               </div>
             </div>
-            <div className="col-xl-2" style={{width: "250px"}}>
+            <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
                 <a href="#"><img src="./assets/img/brand/03.png" alt=""/></a>
               </div>
             </div>
-            <div className="col-xl-2" style={{width: "250px"}}>
+            <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
                 <a href="#"><img src="./assets/img/brand/04.png" alt=""/></a>
               </div>
             </div>
-            <div className="col-xl-2" style={{width: "250px"}}>
+            <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
                 <a href="#"><img src="./assets/img/brand/05.png" alt=""/></a>
               </div>
             </div>
-            <div className="col-xl-2" style={{width: "250px"}}>
+            <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
                 <a href="#"><Image src={divan} width={250} alt="yelken"/></a>
               </div>
             </div>
-            <div className="col-xl-2" style={{width: "250px"}}>
+            <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
                 <a href="#"><Image src={yelken} width={250} alt="yelken"/></a>
               </div>
             </div>
-            <div className="col-xl-2" style={{width: "250px"}}>
+            <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
                 <a href="#"><img src="./assets/img/brand/03.png" alt=""/></a>
               </div>
             </div>
-            <div className="col-xl-2" style={{width: "250px"}}>
+            <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
                 <a href="#"><img src="./assets/img/brand/04.png" alt=""/></a>
               </div>
             </div>
-            <div className="col-xl-2" style={{width: "250px"}}>
+            <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
                 <a href="#"><img src="./assets/img/brand/05.png" alt=""/></a>
               </div>
