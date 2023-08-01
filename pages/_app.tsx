@@ -1,6 +1,5 @@
 "use client"
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-icons/font/bootstrap-icons.css'
 import "aos/dist/aos.css";
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
