@@ -44,7 +44,7 @@ const Header = () => {
                   <a className="logo-img" href="/"><Image width={150} src={language === "en" ? logo_en : language === "ru" ? logo_ru : logo} priority
                     alt="logo" /></a>
                   <a className="logo-img sticky-logo d-none" href="/"><Image width={150} priority
-                    src={logo} alt="logo" /></a>
+                    src={language === "en" ? logo_en : language === "ru" ? logo_ru : logo} alt="logo" /></a>
                 </div>
               </div>
               <div className="col-xxl-6 col-xl-6 col-lg-6 d-none d-lg-block">
