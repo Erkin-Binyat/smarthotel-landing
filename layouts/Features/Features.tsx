@@ -27,7 +27,7 @@ const Features = () => {
 					<p className="text-left">{t("about.desc1")}</p>
 				</div>
 			</div>
-			<div className="row justify-content-end mb-40 aos-init aos-animate" data-aos="fade-up">
+			<div className="row justify-content-end mb-40 animation" data-aos="fade-up">
 				<div className="col-xxl-6 col-xl-6 ">
 					<p>{t("about.desc2")}</p>
 					<p className="pt-20">{t("about.desc3")}</p>
