@@ -1,5 +1,7 @@
 import Image from "next/image";
-import logo from "@/public/assets/img/logo/logo.png";
+import logo from "@/public/assets/img/logo/logo_tk.svg";
+import logo_en from "@/public/assets/img/logo/logo_en.svg";
+import logo_ru from "@/public/assets/img/logo/logo_ru.svg";
 import { useTranslation } from "next-i18next";
 import { LanguageSwitcher } from "@/components";
 import useToggle from "@/hooks/useToggle";
@@ -8,7 +10,7 @@ import bars from "@/public/assets/img/bars.svg";
 import { useEffect, useState } from "react";
 
 const Header = () => {
-  const { t } = useTranslation("common");
+  const { t, i18n: { language } } = useTranslation("common");
   const { open, toggle } = useToggle();
   const [ scrollY, setScrollY ] = useState(0);
 
@@ -31,7 +33,6 @@ const Header = () => {
     };
   }, [scrollY]);
 
-
   return (
     <>
       <header>
@@ -40,7 +41,7 @@ const Header = () => {
             <div className="row align-items-center justify-content-between">
               <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-6">
                 <div className="logo">
-                  <a className="logo-img" href="/"><Image width={150} src={logo} priority
+                  <a className="logo-img" href="/"><Image width={150} src={language === "en" ? logo_en : language === "ru" ? logo_ru : logo} priority
                     alt="logo" /></a>
                   <a className="logo-img sticky-logo d-none" href="/"><Image width={150} priority
                     src={logo} alt="logo" /></a>
