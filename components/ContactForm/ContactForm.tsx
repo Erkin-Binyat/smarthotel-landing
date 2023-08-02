@@ -1,6 +1,5 @@
 import { useTranslation } from "next-i18next";
 import { useState } from "react";
-import { useForm } from "react-hook-form";
 
 const ContactForm = () => {
   const { t } = useTranslation();
@@ -31,6 +30,7 @@ const ContactForm = () => {
       },
       body: JSON.stringify(user)
     }).then((res) => {
+      console.log(res.ok);
       if(res.ok){
         clearTimeout(abortTimeoutId);
         return res.json();
@@ -40,7 +40,7 @@ const ContactForm = () => {
     }).then((res) => {
       reset();
     }).catch((error) => {
-      
+      console.log(error);
     });
   };
 
