@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 const ScrollTop = () => {
   return (
-    <Link></Link>
+    <Link href={"#nav"}>{">"}</Link>
   )
 };
 
