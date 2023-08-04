@@ -6,11 +6,19 @@ import { useTranslation } from "next-i18next";
 
 const Features = () => {
 	const { t } = useTranslation();
+
+	// Rendering Features
 	const renderFeatures = useMemo(() => {
 		return features ? features.map((feature, index) => {
 			return <FeatureCard key={index} index={index} {...feature} />
 		}) : null
 	}, [features]);
+
+	const renderAccordion = useMemo(() => {
+		return features ? features.map((feature, index) => {
+			
+		}) : null
+	}, []);
 
 	return (
 		<>
