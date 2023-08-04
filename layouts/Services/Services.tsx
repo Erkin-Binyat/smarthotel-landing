@@ -6,7 +6,7 @@ import { CoreFeature, Accordion } from "@/components";
 const Services = () => {
 	const [services, setServices] = useState(coreFeatures);
 	const [index, setIndex] = useState(1);
-	const [isMobile, setIsMobile] = useState(false);
+	const [isMobile, setIsMobile] = useState(true);
 	const width = window.innerWidth;
 
 	useEffect(() => {
@@ -15,7 +15,7 @@ const Services = () => {
 		} else {
 			setIsMobile(false);
 		};
-	}, [width]);
+	}, []);
 
 	// Rendering service header
 	const serviceHeading = useMemo(() => {
