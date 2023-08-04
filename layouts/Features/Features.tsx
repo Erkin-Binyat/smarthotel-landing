@@ -25,13 +25,13 @@ const Features = () => {
 						</div>
 					</div>
 					<div className="row justify-content-start mb-20">
-						<div className="col-xxl-8 col-xl-8 aos-init aos-animate" data-aos="fade-up">
-							<p className="text-left" style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7" }}>{t("about.desc1")}</p>
+						<div className="col-xxl-12 col-xl-8 aos-init aos-animate" data-aos="fade-up">
+							<p className="text-left" style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7", textAlign: "center"}}>{t("about.desc1")}</p>
 						</div>
 					</div>
 					<div className="row justify-content-end mb-20 pt-10 animation" data-aos="fade-up">
-						<div className="col-xxl-8 col-xl-8 ">
-							<p style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7" }} id={"features"}>{t("about.desc2")} <br/> <br/> {t("about.desc3")}</p>
+						<div className="col-xxl-12 col-xl-8 ">
+							<p style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7", textAlign: "center" }} id={"features"}>{t("about.desc2")} <br/> <br/> {t("about.desc3")}</p>
 						</div>
 					</div>
 					<div className="row pt-20">{renderFeatures}</div>
