@@ -5,6 +5,7 @@ import { Preloader } from '@/components';
 import Router from 'next/router';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import ScrollTop from '@/components/ScrollTop/ScrollTop';
 
 export default function Home() {
   const [loading, setLoading] = useState<boolean>(true);
@@ -51,6 +52,7 @@ export default function Home() {
       {
       loading ? <Preloader /> :
       <>
+        <ScrollTop/>
         <Header />
         <Hero />
         <Features />
