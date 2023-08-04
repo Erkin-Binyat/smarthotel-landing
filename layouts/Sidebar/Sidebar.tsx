@@ -15,7 +15,7 @@ const Sidebar = ({open, toggle}: BarProps) => {
     <>
       <aside className={open ? "slide-bar show" : "slide-bar"}>
         <div className="close-mobile-menu">
-          <button onClick={() => toggle()} className="btn p-0"><Image src={times} width={20} height={20} alt={"times"} priority /></button>
+          <button onClick={() => toggle()} className="btn-close btn-close-white"></button>
         </div>
         <nav className="side-mobile-menu">
           <ul id="mobile-menu-active">
