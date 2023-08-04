@@ -1,5 +1,6 @@
 import { useTranslation } from "next-i18next";
 import { useState } from "react";
+import { FaChevronRight } from "react-icons/fa";
 
 const ContactForm = () => {
   const { t } = useTranslation();
@@ -73,8 +74,7 @@ const ContactForm = () => {
     <div className="row">
       <div className="col-12">
         <div className="subs-btn">
-          <button className="theme_btn theme_btn_bg btn" type="submit">{t("contact.submit")} <i
-            className="fas fa-chevron-right"></i></button>
+          <button className="theme_btn theme_btn_bg btn d-flex align-items-center" type="submit">{t("contact.submit")} <FaChevronRight /></button>
         </div>
       </div>
     </div>
