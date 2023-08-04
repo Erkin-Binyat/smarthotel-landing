@@ -1,4 +1,5 @@
 import { useTranslation } from "next-i18next";
+import { FaCheck } from "react-icons/fa";
 
 type FeatureProps = {
   title: string,
@@ -20,7 +21,7 @@ const FeatureCard = ({title, img, content, index}: FeatureProps) => {
       <ul className="pr_list text-xxl-start">
         {content.map((data: any, index) => {
           const { name } = data;
-          return <li key={index}><i className="far fa-check"></i> {t(`features.${name}`)}</li>
+          return <li key={index} className="flex align-items-center"><FaCheck size={10}/> {t(`features.${name}`)}</li>
         })}
       </ul>
     </div>
