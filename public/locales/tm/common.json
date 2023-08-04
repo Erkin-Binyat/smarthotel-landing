@@ -55,12 +55,12 @@
   "contact": {
     "heading": "Contact Us",
     "subheading": "We're here to help whenever you need",
-    "location": "Olympic village, No:7, Business Center \"Sport\", Floor 5, Ashgabat, Turkmenistan",
-    "name": "Your name",
-    "mail": "Email Address",
-    "phone": "Phone Number",
-    "subject": "Subject",
+    "location": "Olimpiýa şäherjigi, №:7, “Sport” işewürlik merkezi, Gat 5, ş.Aşgabat",
+    "name": "Adyňyz",
+    "mail": "E-Poçta",
+    "phone": "Telefon belgiňiz",
+    "subject": "Mowzuk",
     "message": "Write Message",
-    "submit": "Send message"
+    "submit": "Ugrat"
   }
 }

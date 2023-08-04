@@ -55,12 +55,12 @@
   "contact": {
     "heading": "Contact Us",
     "subheading": "We're here to help whenever you need",
-    "location": "Olympic village, No:7, Business Center \"Sport\", Floor 5, Ashgabat, Turkmenistan",
-    "name": "Your name",
-    "mail": "Email Address",
-    "phone": "Phone Number",
-    "subject": "Subject",
-    "message": "Write Message",
-    "submit": "Send message"
+    "location": "Олимпийский городок, №:7, “Спорт” Бизнес Центр, 5-й этаж, г.Ашхабад",
+    "name": "Имя",
+    "mail": "Электронная почта",
+    "phone": "Контактный телефон",
+    "subject": "Тема",
+    "message": "Напиши сообщение",
+    "submit": "Отправить"
   }
 }
