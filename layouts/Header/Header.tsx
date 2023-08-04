@@ -8,6 +8,7 @@ import useToggle from "@/hooks/useToggle";
 import { Sidebar } from "..";
 import bars from "@/public/assets/img/bars.svg";
 import { useEffect, useState } from "react";
+import { FaChevronRight } from "react-icons/fa";
 
 const Header = () => {
   const { t, i18n: { language } } = useTranslation("common");
@@ -69,8 +70,9 @@ const Header = () => {
                     </div>
                   </li>
                   <li className="d-none d-lg-inline-block">
-                    <a id="contactLink" href="#contactUs" className="theme_btn theme_btn_bg white_btn"> {t("navigation.contact")}<i
-                      className="fas fa-chevron-right"></i></a>
+                    <a id="contactLink" href="#contactUs" className="theme_btn theme_btn_bg white_btn d-flex align-items-center"> {t("navigation.contact")}
+                    <FaChevronRight size={13}/>
+                    </a>
                   </li>
                   <li className="d-none d-lg-inline-block" style={{ paddingTop: "5px", height: "fit-content" }}>
                     <LanguageSwitcher />
