@@ -3,7 +3,7 @@
     "about": "О Нас",
     "features": "Свойства",
     "pricing": "Цены",
-    "partners": "Партнеры",
+    "partners": "Наши партнеры",
     "contact": "Контакт"
   },
   "hero": {
@@ -59,7 +59,7 @@
   },
   "contact": {
     "heading": "Contact Us",
-    "subheading": "We're here to help whenever you need",
+    "subheading": "Мы всегда здесь чтобы вам помочь",
     "location": "Олимпийский городок, №:7, “Спорт” Бизнес Центр, 5-й этаж, г.Ашхабад",
     "name": "Имя",
     "mail": "Электронная почта",
