@@ -1,10 +1,24 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
 import { Features, Header, Hero, Download, Pricing, Clients, Services, Contact, Footer } from "@/layouts";
-import { Suspense } from 'react';
-import Loading from './loading';
+import { Preloader } from '@/components';
+import Router from 'next/router';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
+  const [loading, setLoading] = useState<boolean>(true);
+
+  useEffect(() => {
+    window.addEventListener("load", () => {
+      setLoading(false);
+    });
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
     <>
       <Head>
@@ -15,7 +29,10 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
       </Head>
-      <Suspense fallback={<Loading/>}>
+      
+      {
+      loading ? <Preloader /> :
+      <>
         <Header />
         <Hero />
         <Features />
@@ -25,7 +42,8 @@ export default function Home() {
         <Clients />
         <Contact />
         <Footer />
-      </Suspense>
+      </>
+      }
     </>
   )
 };
