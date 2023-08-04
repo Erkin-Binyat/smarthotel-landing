@@ -29,10 +29,9 @@ const Features = () => {
 							<p className="text-left" style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7" }}>{t("about.desc1")}</p>
 						</div>
 					</div>
-					<div className="row justify-content-end mb-20 animation" data-aos="fade-up">
+					<div className="row justify-content-end mb-20 pt-10 animation" data-aos="fade-up">
 						<div className="col-xxl-8 col-xl-8 ">
-							<p style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7" }}>{t("about.desc2")}</p>
-							<p className="pt-20" style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7" }}  id="features">{t("about.desc3")}</p>
+							<p style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7" }} id={"features"}>{t("about.desc2")} <br/> <br/> {t("about.desc3")}</p>
 						</div>
 					</div>
 					<div className="row pt-20">{renderFeatures}</div>
