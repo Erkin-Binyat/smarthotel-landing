@@ -49,7 +49,12 @@
     "title": "Pricing Plan",
     "heading": "All in One Hotel Management Software with reasonable price",
     "description": "Simple, transparent pricing with full features included and technical services",
-    "request": "Request price"
+    "request": "Request price",
+    "dashboard": "Dashboard",
+    "reception": "Reception",
+    "multipleUser": "Multiple users",
+    "housekeeping": "Housekeeping",
+    "support": "Hotline Support 24/7"
   },
   "contact": {
     "heading": "Contact Us",

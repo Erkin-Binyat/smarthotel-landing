@@ -50,7 +50,12 @@
     "title": "Nyrh meýilnamasy",
     "heading": "Amatly baha bilen sanly myhmanhana dolandyryş ulgamy",
     "description": "Ulgamyň ähli aýratynlyklaryny we tehniki goldawy öz içine alýan ýönekeý we anyk baha",
-    "request": "Talapnama ugradyň"
+    "request": "Talapnama ugradyň",
+    "dashboard": "Dolandyryş paneli",
+    "reception": "Reception",
+    "multipleUser": "Birnäçe ulanyjy",
+    "housekeeping": "Housekeeping",
+    "support": "Hotline Support 24/7"
   },
   "contact": {
     "heading": "Contact Us",
