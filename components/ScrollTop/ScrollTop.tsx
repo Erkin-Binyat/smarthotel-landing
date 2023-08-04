@@ -18,17 +18,16 @@ const ScrollTop = () => {
   useEffect(() => {
     if(scrollY < 200){
       setOpen(false);
-      document.getElementById("scrollUp")?.setAttribute("data-aos", "fade-up");
     } else {
       setOpen(true);
-      document.getElementById("scrollUp")?.removeAttribute("data-aos");
     };
   }, [scrollY]);
 
   const show: any = {
     position: "fixed",
     zIndex: 2147483647,
-    display: open ? "block" : "none",
+    visibility: open ? "visible" : "hidden",
+    opacity: open ? 1 : 0,
     transition: "all .3s ease"
   }
 
