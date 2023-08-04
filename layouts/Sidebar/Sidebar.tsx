@@ -19,10 +19,10 @@ const Sidebar = ({open, toggle}: BarProps) => {
         </div>
         <nav className="side-mobile-menu">
           <ul id="mobile-menu-active">
-            <li><a style={{cursor: "pointer"}} id="about-2">{t("navigation.about")}</a></li>
-            <li><a style={{cursor: "pointer"}} id="featuresLink-2">{t("navigation.features")}</a></li>
-            <li><a id="pricingLink-2" style={{cursor: "pointer"}}>{t("navigation.pricing")}</a></li>
-            <li><a id="contactLink-2" style={{cursor: "pointer"}}>{t("navigation.contact")}</a></li>
+            <li><a style={{cursor: "pointer"}} href="#aboutUs" id="about-2">{t("navigation.about")}</a></li>
+            <li><a style={{cursor: "pointer"}} href="#features" id="featuresLink-2">{t("navigation.features")}</a></li>
+            <li><a id="pricingLink-2" href="#pricing" style={{cursor: "pointer"}}>{t("navigation.pricing")}</a></li>
+            <li><a id="contactLink-2" href="#contactUs" style={{cursor: "pointer"}}>{t("navigation.contact")}</a></li>
           </ul>
         </nav>
         <LanguageSwitcher />

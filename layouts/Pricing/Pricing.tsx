@@ -6,7 +6,8 @@ const Pricing = () => {
 
     return (
         <>
-            <section className="plan-area pt-125" id="pricing">
+            <div id="pricing" style={{height: "50px"}}></div>
+            <section className="plan-area pt-100">
                 <div className="container">
                     <div className="plan-wrapper">
                         <div className="row">
@@ -22,7 +23,7 @@ const Pricing = () => {
                                     <div className="dnxte-content-toggle-body">
                                         <div className="dnxte-content-toggle-front">
                                             <div className="row pb-100">
-                                                <div className="col-xxl-12 col-xl-8 col-lg-6 col-md-6">
+                                                <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                                                     <div className="plan pos-rel active text-center mb-30">
                                                         <div className="pr_head"></div>
                                                         <div className="pr_body mb-20">

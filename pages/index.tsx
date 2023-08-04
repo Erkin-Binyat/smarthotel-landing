@@ -1,6 +1,6 @@
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import Head from 'next/head'
-import { Features, Header, Hero, Download, Pricing, Clients, Services, Contact, Footer } from "@/layouts";
+import { Features, Header, Hero, Download, Pricing, Clients, Services, Contact, Footer, About } from "@/layouts";
 import { Preloader } from '@/components';
 import Router from 'next/router';
 import { useState, useEffect } from 'react';
@@ -55,6 +55,7 @@ export default function Home() {
         <ScrollTop/>
         <Header />
         <Hero />
+        <About/>
         <Features />
         <Download />
         <Pricing />
