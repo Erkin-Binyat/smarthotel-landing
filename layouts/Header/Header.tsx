@@ -51,7 +51,7 @@ const Header = () => {
                 <div className="main-menu main-menu-02 main-menu-06 d-none d-lg-block text-lg-end ml-45">
                   <nav>
                     <ul>
-                      <li><a style={{ cursor: "pointer" }} href="#features" id="about">{t("navigation.about")}</a></li>
+                      <li><a style={{ cursor: "pointer" }} href="#about" id="about">{t("navigation.about")}</a></li>
                       <li><a style={{ cursor: "pointer" }} href="#features" id="featuresLink">{t("navigation.features")}</a></li>
                       <li><a id="pricingLink" href="#pricing" style={{ cursor: "pointer" }}>{t("navigation.pricing")}</a></li>
                       <li><a style={{ cursor: "pointer" }} href="#partners" id="partnerstLink">{t("navigation.partners")}</a></li>
