@@ -18,8 +18,8 @@ const Hero = () => {
                 </h2>
                 <p id="headerAbout" className="animation" data-aos={"fade-up"}>{t("hero.description")}</p>
                 <ul className="btn-list mt-35 animation" data-aos={"fade-up"}>
-                  <li><a className="theme_btn theme_btn_bg" href="#features">{t("hero.discover")}
-                    <i className="fas fa-chevron-right"></i></a>
+                  <li>
+                    <a className="theme_btn theme_btn_bg d-flex align-items-center" href="#features">{t("hero.discover")}</a>
                   </li>
                 </ul>
               </div>
