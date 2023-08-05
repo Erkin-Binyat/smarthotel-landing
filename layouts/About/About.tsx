@@ -4,7 +4,7 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="what-do-area-02 what-do-area-06 pt-140 pb-50" id="aboutUs">
+    <section className="what-do-area-02 what-do-area-06 pt-200 pb-50 mb-40" id="aboutUs">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xxl-6 col-xl-6 aos-init aos-animate" data-aos="fade-up">
@@ -14,9 +14,9 @@ const About = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-xxl-8 col-xl-8">
+          <div className="col-xxl-8 col-xl-8" style={{ maxWidth: "1200px", margin: "auto" }}>
             <div className="row justify-content-start mb-20">
-              <div className="col-xxl-12 col-xl-8 aos-init aos-animate" style={{ maxWidth: "1200px", margin: "auto" }} data-aos="fade-up">
+              <div className="col-xxl-12 col-xl-8 aos-init aos-animate"  data-aos="fade-up">
                 <p className="text-justify" style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7", textAlign: "justify" }}>{t("about.desc1")}</p>
               </div>
             </div>
@@ -26,7 +26,9 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="col-xxl-4 col-xl-4">
+        </div>
+        <div className="row">
+          <div className="col-xxl-6 col-xl-6 about-feature pt-40" style={{ maxWidth: "1200px", margin: "auto" }}>
             <div className="col-xxl-12 col-xl-12 col-lg-6 col-md-6">
               <div className="plan pos-rel text-center">
                 <div className="pr_head">
@@ -34,16 +36,16 @@ const About = () => {
                 </div>
                 <div className="pr_body">
                   <ul className="pr_list">
-                    <li><i className="far fa-check"></i> {t("about.features.item1")}</li>
-                    <li><i className="far fa-check"></i> {t("about.features.item2")}</li>
-                    <li><span><i className="far fa-check"></i> {t("about.features.item3")}</span></li>
-                    <li><i className="far fa-check"></i> {t("about.features.item4")}</li>
-                    <li><i className="far fa-check"></i>  {t("about.features.item5")}</li>
+                    <li style={{fontSize: "19px"}}>{t("about.features.item1")}</li>
+                    <li style={{fontSize: "19px"}}>{t("about.features.item2")}</li>
+                    <li style={{fontSize: "19px"}}><span>{t("about.features.item3")}</span></li>
+                    <li style={{fontSize: "19px"}}>{t("about.features.item4")}</li>
+                    <li style={{fontSize: "19px"}}>{t("about.features.item5")}</li>
                   </ul>
                 </div>
               </div>
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </section>
