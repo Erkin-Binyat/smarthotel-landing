@@ -5313,12 +5313,12 @@ input.main-search-input:-ms-input-placeholder {
     transition: 0.3s;
 }
 
-.plan:hover, .plan.active {
+.plan.active {
     background: #0071dc;
     border-color: #0071dc;
 }
 
-.plan:hover li.disable, .plan.active li.disable {
+.plan.active li.disable {
     color: #338de3 !important;
 }
 
@@ -5331,28 +5331,23 @@ input.main-search-input:-ms-input-placeholder {
     top: 8px;
 }
 
-.plan:hover .pr_head, .plan.active .pr_head {
+.plan.active .pr_head {
     border-bottom: 1px solid rgba(237, 237, 237, 0.2);
 }
 
-.plan:hover .pr_head h3, .plan.active .pr_head h3 {
+.plan.active .pr_head h3 {
     color: #ffffff;
 }
 
-.plan:hover .pr_head h2, .plan.active .pr_head h2 {
+.plan.active .pr_head h2 {
     color: #ffffff;
 }
 
-.plan:hover .pr_head span, .plan.active .pr_head span {
-    color: #ffffff;
-    background: #127bde;
-}
-
-.plan:hover .pr_body .pr_list li, .plan.active .pr_body .pr_list li {
+.plan.active .pr_body .pr_list li {
     color: #ffffff;
 }
 
-.plan:hover .pr_body .pr_list li i, .plan.active .pr_body .pr_list li i {
+.plan.active .pr_body .pr_list li i {
     color: #ffffff;
 }
 
@@ -5375,13 +5370,12 @@ input.main-search-input:-ms-input-placeholder {
 
 .pr_head {
     border-bottom: 1px solid #ededed;
-    padding-bottom: 38px;
-    margin-bottom: 35px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .pr_head h3 {
-    font-size: 30px;
-    margin-bottom: 15px;
+    font-size: 20px;
 }
 
 .pr_head h2 {
