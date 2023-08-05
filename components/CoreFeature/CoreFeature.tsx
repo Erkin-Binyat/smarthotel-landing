@@ -1,8 +1,10 @@
 import { CoreFeatureProps } from "@/public/types";
 import { useEffect } from "react";
 import AOS from "aos";
+import { useTranslation } from "next-i18next";
 
 const CoreFeature = ({service, activeTab}: CoreFeatureProps) => {
+  const { t } = useTranslation();
   const { content: { title, heading, desc, img } } = service;
 
   useEffect(() => {
@@ -15,9 +17,9 @@ const CoreFeature = ({service, activeTab}: CoreFeatureProps) => {
       <div className="col-xxl-4 col-xl-5 col-lg-6 col-md-12">
         <div className="feature_wrapper_02 mb-30">
           <div className="section-title text-left mb-35">
-            <h5>{title}</h5>
-            <h2>{heading}</h2>
-            <p className="mt-30">{desc}</p>
+            <h5>{t(`coreFeatures.${title}`)}</h5>
+            <h2>{t(`coreFeatures.${heading}`)}</h2>
+            <p className="mt-30">{t(`coreFeatures.${desc}`)}</p>
           </div>
         </div>
       </div>
