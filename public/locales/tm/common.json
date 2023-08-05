@@ -48,6 +48,10 @@
     "dataSecurity": "Ýerli serwerler arkaly maglumat howpsuzlygy",
     "distanceTraining": "Ulgama uzakdan baglanmak arkaly islendik ýerden tälim okuwyny geçme mümkinçiligi"
   },
+  "download": {
+    "platform": "Bir ulgam, çäksiz mümkinçilikler",
+    "heading": "Ähli myhmanhana görnüşleri üçin"
+  },
   "pricing": {
     "title": "Nyrh meýilnamasy",
     "heading": "Amatly baha bilen sanly myhmanhana dolandyryş ulgamy",
