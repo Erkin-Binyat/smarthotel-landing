@@ -9,7 +9,7 @@ const About = () => {
       <div className="row justify-content-center">
         <div className="col-xxl-6 col-xl-6 aos-init aos-animate" data-aos="fade-up">
           <div className="section-title blue-title text-center pr-50 pl-50 mb-40">
-            <h2>About SmartHotel</h2>
+            <h2>{t("about.title")}</h2>
           </div>
         </div>
       </div>
