@@ -15,8 +15,15 @@
     "title": "SmartHotel barada",
     "desc1": "SmartHotel – sanly myhmanhana dolandyryş ulgamy, innowasion sanly tehnologiýalar boýunça tejribeli ýerli hünärmenler tarapyndan işlenip taýýarlandy. Sanly ulgam arkaly awtomatiki usulda myhmanhana dolandyrylyşy SmartHotel bilen has aňsatlaşdy. Bu bolsa, netije babatynda işleriň gözegçiligine ygtybarlylygy artdyrar.",
     "desc2": "SmartHotel oňaýly ulanyjy interfeýsi, myhmanhana dolanşygynyň ähli ugurlaryna degişlilikde giňişleýin işjeňlik, ýerli serwerlerde gurnalan ygtybarly maglumat saklaýjy gurluşy ýaly ýeňillikler hödürlemek bilen bir hatarda, ol islendik görnüşdäki myhmanhanalara gurnalmaga hem gabat gelýär.",
-    "desc3": "SmartHotel sanly dolandyryş ulgamy, front desk/resepsiýa hem-de back office/ofis amallary (integrirlenen buhgalteriýa bilen bilelikde), rezerwasiýa dolanşygy, housekeeping/hojalyk hyzmatlary, otaglaryň paýlanyşy, otaglaryň inwentarlarynyň gözegçiligi, şeýle hem buhgalteriýa işlerini we hasaplaşyk amallaryny alyp barmak ýaly mümkinçilikleri özünde jemleýär."
-  
+    "desc3": "SmartHotel sanly dolandyryş ulgamy, front desk/resepsiýa hem-de back office/ofis amallary (integrirlenen buhgalteriýa bilen bilelikde), rezerwasiýa dolanşygy, housekeeping/hojalyk hyzmatlary, otaglaryň paýlanyşy, otaglaryň inwentarlarynyň gözegçiligi, şeýle hem buhgalteriýa işlerini we hasaplaşyk amallaryny alyp barmak ýaly mümkinçilikleri özünde jemleýär.",
+    "features": {
+      "head": "Tapawutlanýan käbir özboluşly aýratynlyklary",
+      "item1": "- Ulanyş babatynda aňsat we ýeňil",
+      "item2": "- Ähli amallary dolandyrmak üçin çylşyrymly bolmadyk dolandyryş paneli",
+      "item3": "- Çalt gurnamaga mümkinçilikli ulgam",
+      "item4": "- Ýerli serwerlerde saklanýan maglumatlaryň howpsuzlygy",
+      "item5": "- Dowamly we yzygiderli tehniki goldaw"
+    }
   },
   "features": {
     "title": "Käbir funksiýalary",
