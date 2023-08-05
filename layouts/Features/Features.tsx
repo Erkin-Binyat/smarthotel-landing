@@ -16,7 +16,7 @@ const Features = () => {
 
 	return (
 		<>
-			<section className="what-do-area-02 what-do-area-06 pt-140 pb-100" id="features">
+			<section className="what-do-area-02 what-do-area-06 pt-140 pb-100 mb-100" id="features">
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-xxl-6 col-xl-6 aos-init aos-animate" data-aos="fade-up">
