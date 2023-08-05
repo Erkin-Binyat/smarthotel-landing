@@ -1,4 +1,6 @@
 import { useTranslation } from "next-i18next";
+import Image from "next/image";
+import download from "@/public/assets/img/bg/download.png";
 
 const Download = () => {
 	const { t } = useTranslation();
@@ -19,8 +21,8 @@ const Download = () => {
 					</div>
 				</div>
 				<div className="col-xl-12">
-					<div className="dashbord_img-02 pos-rel pt-120 text-center animation" data-aos="fade-up">
-						<img src="./assets/img/bg/04.png" alt=""/>
+					<div className="dashbord_img-02 pos-rel pt-60 text-center animation" data-aos="fade-up">
+						<Image src={download} priority width={1000} height={600} style={{borderRadius: 10, objectFit: "cover", objectPosition: "top"}} alt="download"/>
 					</div>
 				</div>
 			</div>
