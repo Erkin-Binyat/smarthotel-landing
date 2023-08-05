@@ -83,23 +83,25 @@
     "submit": "Send message"
   },
   "coreFeatures": {
+    "heading": "The software created for hotel management solutions",
+    
     "detailedReports": "Detailed reports",
     "organizedLists": "Well-organized lists",
     "userExperience": "User Experience",
     "checkIncheckOut": "Check-in & Check-out",
 
     "reportingAnalytics": "Reporting & Analytics",
-    "wellLists": "",
+    "wellLists": "Well-organized lists",
     "progressCustomization": "Progress & Customizations",
     "easyProcess": "Easy reservation process",
     
     "detailedReports2": "Detailed reports",
-    "organizedLists2": "Well-organized lists",
+    "organizedLists2": "Consult convenient housekeeping and guest lists.",
     "userExperience2": "User Experience",
     "speedUp": "Speed up your check-in & check-out",
 
     "makeSure": "Make sure your strategy adjustments are based on data, not on your instincts. Browse through all reports in the SmartHotel and grasp how your business is going.",
-    "consult": "Consult convenient housekeeping and guest lists. Immediately add extra comments to keep your team informed.",
+    "consult": " Immediately add extra comments to keep your team informed.",
     "implementation": "Get painless implementation, easy training, and an intuitive interface without sacrificing transparency.",
     "speedProcess": "Get a clear overview of all arriving guests and check-in guests in no-time, even group reservations. Quickly check who has already paid or not and speed up the process."
   }

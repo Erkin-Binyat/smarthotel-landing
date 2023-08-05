@@ -82,23 +82,25 @@
     "submit": "ugratmak"
   },
   "coreFeatures": {
+    "heading": "Myhmanhana dolandyryş çözgütleri üçin döredilen programma üpjünçiligi",
+
     "detailedReports": "Jikme-jik hasabatlar",
     "organizedLists": "Amatly sanawnamalar",
     "userExperience": "Ulanyjy tejribesi",
     "checkIncheckOut": "Check-in & Check-out",
 
     "reportingAnalytics": "Hasabat we Analitika",
-    "wellLists": "",
+    "wellLists": "Amatly sanawnamalar",
     "progressCustomization": "Progres we düzedişler",
     "easyProcess": "Aňsat rezerwasiýa prosesi",
 
     "detailedReports2": "Jikme-jik hasabatlar",
-    "organizedLists2": "Amatly sanawnamalar",
+    "organizedLists2": "Möhüm bolan ähli sanawnamalara aňsatlyk bilen ýetiň.",
     "userExperience2": "Ulanyjy tejribesi",
     "speedUp": "Bron etmek, ýerleşmek we çykmagy çaltlaşdyrmak",
 
     "makeSure": "Strategiýaňyzy instinktleriňize däl-de, maglumatlara esaslandyryň. SmartHotel bilen ähli hasabatlar we analitiki maglumatlar siziň eliňiziň astynda.",
-    "consult": "Möhüm bolan ähli sanawnamalara aňsatlyk bilen ýetiň.",
+    "consult": "",
     "implementation": "SmartHotel, ulanmaga ýeňil, öwrenmage aňsat interfeýs hödürleýär.",
     "speedProcess": "SmartHotel, gelýän we gidýän myhmanlar barada maglumatlary, hasaplaryň tölenip tölenmedigi baradaky maglumatlary tiz wagtda almak bilen prosesi çaltlaşdyrmaga ýardam berer."
   }
