@@ -12,7 +12,7 @@ const Pricing = () => {
                     <div className="plan-wrapper">
                         <div className="row">
                             <div className="col-xxl-6 col-xl-6">
-                                <div className="section-title pt-80 mb-30">
+                                <div className="section-title pt-20 mb-30">
                                     <h5>{t("pricing.title")}</h5>
                                     <h2>{t("pricing.heading")}</h2>
                                     <p className="pt-30">{t("pricing.description")}</p>
