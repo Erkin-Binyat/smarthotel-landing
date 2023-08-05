@@ -5,6 +5,8 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import yelken from "@/public/assets/img/brand/yelken.svg";
 import divan from "@/public/assets/img/brand/Divan.svg";
+import archabil from "@/public/assets/img/brand/archabil.png";
+import garagum from "@/public/assets/img/brand/garagum.png";
 
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
   ssr: false,
@@ -33,52 +35,42 @@ const Clients = () => {
             <OwlCarousel dots={false} loop responsive={Responsive} autoplay autoplayTimeout={3000}>
             <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
-                <a href="#"><Image src={divan} width={250} alt="yelken"/></a>
+                <a href="#"><Image src={divan} width={250} priority alt="yelken"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
-                <a href="#"><Image src={yelken} width={250} alt="yelken"/></a>
+                <a href="#"><Image src={yelken} width={250} priority alt="yelken"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
-                <a href="#"><img src="./assets/img/brand/03.png" alt=""/></a>
+                <a href="#"><Image src={archabil} width={250} priority alt="archabil"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
-                <a href="#"><img src="./assets/img/brand/04.png" alt=""/></a>
+                <a href="#"><Image src={garagum} width={250} priority alt="garagum"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
-                <a href="#"><img src="./assets/img/brand/05.png" alt=""/></a>
+                <a href="#"><Image src={divan} width={250} priority alt="yelken"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
-                <a href="#"><Image src={divan} width={250} alt="yelken"/></a>
+                <a href="#"><Image src={yelken} width={250} priority alt="yelken"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
-                <a href="#"><Image src={yelken} width={250} alt="yelken"/></a>
+                <a href="#"><Image src={archabil} width={250} height={50} priority alt="archabil"/></a>
               </div>
             </div>
             <div className="col-xl-2" style={{width: "100%"}}>
               <div className="slide_img">
-                <a href="#"><img src="./assets/img/brand/03.png" alt=""/></a>
-              </div>
-            </div>
-            <div className="col-xl-2" style={{width: "100%"}}>
-              <div className="slide_img">
-                <a href="#"><img src="./assets/img/brand/04.png" alt=""/></a>
-              </div>
-            </div>
-            <div className="col-xl-2" style={{width: "100%"}}>
-              <div className="slide_img">
-                <a href="#"><img src="./assets/img/brand/05.png" alt=""/></a>
+                <a href="#"><Image src={garagum} width={250} height={50} priority alt="garagum"/></a>
               </div>
             </div>
             </OwlCarousel>
