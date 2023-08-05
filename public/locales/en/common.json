@@ -12,7 +12,7 @@
     "discover": "discover more"
   },
   "about": {
-    "title": "about SmartHotel",
+    "title": "About SmartHotel",
     "desc1": "SmartHotel is a hotel management system developed by local software specialists. Managing hotel operations is simplified with SmartHotel management technology, which controls processes for improved efficiency. SmartHotel offers an intuitive user interface, comprehensive functionality for all areas of hotel management, secure data storage and meets the needs of all types of hotels.",
     "desc2": "The software provides key features as; front desk & back office operations (with integrated accounting), reservation management, housekeeping, assigning rooms, managing room inventory, and performing accounting and billing functions.",
     "features": {
@@ -56,8 +56,8 @@
     "distanceTraining": "Remote accessibility makes distance training"
   },
   "download": {
-    "platform": "One platform, endless opportunities",
-    "heading": "Built for hotels of all sizes"
+    "platform": "one platform, endless opportunities",
+    "heading": "built for hotels of all sizes"
   },
   "pricing": {
     "title": "Pricing Plan",
