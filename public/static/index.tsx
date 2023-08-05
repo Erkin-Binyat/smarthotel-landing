@@ -46,9 +46,6 @@ export const features = [
     title: "reporting",
     content: [
       {
-        name: "overallPerform"
-      },
-      {
         name: "accountingReports"
       },
       {

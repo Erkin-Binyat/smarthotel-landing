@@ -4,10 +4,10 @@
     "features": "Aýratynlyklar",
     "pricing": "Bahalar",
     "partners": "Hyzmartdaşlarymyz",
-    "contact": "Habarlaşmak"
+    "contact": "habarlaşmak"
   },
   "hero": {
-    "title": "SmartHotel – Myhmanhanalar Üçin Sanly Dolandyryş Ulgamy",
+    "title": "SmartHotel – myhmanhanalar üçin sanly dolandyryş ulgamy",
     "description": "“SmartHotel” ulgamy, myhmanhanalary awtomatiki usulda netijeli dolandyrmak üçin doly çözgüt hödürleýär",
     "discover": "giňişleýin"
   },
@@ -18,6 +18,7 @@
     "desc3": "SmartHotel sanly dolandyryş ulgamy, front desk/resepsiýa hem-de back office/ofis amallary (integrirlenen buhgalteriýa bilen bilelikde), rezerwasiýa dolanşygy, housekeeping/hojalyk hyzmatlary, otaglaryň paýlanyşy, otaglaryň inwentarlarynyň gözegçiligi, şeýle hem buhgalteriýa işlerini we hasaplaşyk amallaryny alyp barmak ýaly mümkinçilikleri özünde jemleýär."
   },
   "features": {
+    "title": "Käbir Aýratynlyklary",
     "frontdesk": "Front Desk",
     "housekeeping": "Housekeeping",
     "reporting": "Hasabat we Analitika",
@@ -35,12 +36,11 @@
     "staffManagement": "Işgärleriň dolandyrylyşy",
     "controlManage": "Iş paýlanylyşynyň gözegçiligi we dolandyrylyşy",
     
-    "overallPerform": "Umumy işjeňlige gözegçilik etmek",
     "accountingReports": "Buhgalteriýa hasabatlary",
     "financialSit": "Finans ýagdaýynyň analizi",
-    "evaluatePerform": "Myhmanhananyň umumy işjeňligini barlamak",
+    "evaluatePerform": "Myhmanhananyň umumy işjeňligine gözegçilik",
     "historicalData": "Hronologiki maglumatlaryň datasy",
-    "integrationExcel": "Excel programmasy bilen integrasiýaly işlemek",
+    "integrationExcel": "Excel programmasy bilen integrasiýa",
     "revenueProject": "Myhmanhananyň girdeji hasabaty",
 
     "keepOperations": "Ähli işleri hereketleri yzarlamak",
