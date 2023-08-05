@@ -34,7 +34,6 @@ const ContactForm = () => {
       body: JSON.stringify(user)
     }).then((res) => {
       console.log(res.ok);
-      setLoading(false);
       if(res.ok){
         clearTimeout(abortTimeoutId);
         return res.json();
@@ -42,6 +41,7 @@ const ContactForm = () => {
 
       throw new Error('Whoops! Error sending email.');
     }).then((res) => {
+      setLoading(false);
       toast.success("Your mail was sent successfully!", { position: "bottom-center", hideProgressBar: true });
       reset();
     }).catch((error) => {
