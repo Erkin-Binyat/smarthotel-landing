@@ -14,12 +14,12 @@ const About = () => {
         </div>
       </div>
       <div className="row justify-content-start mb-20">
-        <div className="col-xxl-12 col-xl-8 aos-init aos-animate" data-aos="fade-up">
-          <p className="text-justify" style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7", textAlign: "justify"}}>{t("about.desc1")}</p>
+        <div className="col-xxl-12 col-xl-8 aos-init aos-animate" style={{paddingInline: "10rem"}} data-aos="fade-up">
+          <p className="text-center" style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7", textAlign: "justify"}}>{t("about.desc1")}</p>
         </div>
       </div>
       <div className="row justify-content-end pt-10 animation" data-aos="fade-up">
-        <div className="col-xxl-12 col-xl-8 ">
+        <div className="col-xxl-12 col-xl-8 " style={{paddingInline: "10rem"}}>
           <p style={{ fontSize: "18px", color: "rgba(0, 0, 0, 0.7", textAlign: "center" }}>{t("about.desc2")} <br/> <br/> {t("about.desc3")}</p>
         </div>
       </div>
