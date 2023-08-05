@@ -17,7 +17,7 @@
     "desc2": "SmartHotel offers an intuitive user interface, comprehensive functionality for all areas of hotel management, secure data storage and meets the needs of all types of hotels.",
     "desc3": "The software provides key features as; front desk & back office operations (with integrated accounting), reservation management, housekeeping, assigning rooms, managing room inventory, and performing accounting and billing functions.",
     "features": {
-      "head": "Some characteristic features:",
+      "head": "Some characteristic features",
       "item1": "- Easy to use",
       "item2": "- Single dashboard to control all operations",
       "item3": "- Fast implementation of the system",
@@ -26,7 +26,7 @@
     }
   },
   "features": {
-    "title": "Core Fuatures:",
+    "title": "Core Fuatures",
     "frontdesk": "Front Desk Operations",
     "housekeeping": "Housekeeping",
     "reporting": "Reporting - Analytics",
