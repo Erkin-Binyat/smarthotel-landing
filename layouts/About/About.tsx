@@ -28,8 +28,8 @@ const About = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-xxl-6 col-xl-6 about-feature pt-40" style={{ maxWidth: "1200px", margin: "auto" }}>
-            <div className="col-xxl-12 col-xl-12 col-lg-6 col-md-6">
+          <div className="col-xxl-8 col-xl-8 about-feature pt-40" style={{ maxWidth: "1200px", margin: "auto" }}>
+            <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
               <div className="plan pos-rel text-center">
                 <div className="pr_head">
                   <h3>{t("about.features.head")}</h3>
