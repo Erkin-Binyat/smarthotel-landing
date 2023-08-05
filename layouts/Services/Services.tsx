@@ -59,9 +59,7 @@ const Services = () => {
 				<div className="row">
 					<div className="col-xxl-6 offset-xxl-3 col-xl-8 offset-xl-2">
 						<div className="section-title blue-title text-center mb-30">
-							<h5>Core Features</h5>
-							<h2>We create software for your
-								business solutions</h2>
+							<h3>{t("coreFeatures.heading")}</h3>
 						</div>
 					</div>
 				</div>
