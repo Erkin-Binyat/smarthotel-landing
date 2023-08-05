@@ -51,7 +51,7 @@ const Header = () => {
               <div className="col-xxl-6 col-xl-6 col-lg-6 d-none d-lg-block">
                 <div className="main-menu main-menu-02 main-menu-06 d-none d-lg-block text-lg-end ml-45">
                   <nav>
-                    <ul style={{gap: "30px"}}>
+                    <ul>
                       <li><a style={{ cursor: "pointer" }} href="#aboutUs" id="about">{t("navigation.about")}</a></li>
                       <li><a style={{ cursor: "pointer" }} href="#features" id="featuresLink">{t("navigation.features")}</a></li>
                       <li><a id="pricingLink" href="#pricing" style={{ cursor: "pointer" }}>{t("navigation.pricing")}</a></li>
