@@ -1,7 +1,7 @@
 {
   "navigation": {
     "about": "Biz barada",
-    "features": "Aýratynlyklar",
+    "features": "Funksiýalar",
     "pricing": "Bahalar",
     "partners": "Hyzmartdaşlarymyz",
     "contact": "habarlaşmak"
@@ -16,9 +16,10 @@
     "desc1": "SmartHotel – sanly myhmanhana dolandyryş ulgamy, innowasion sanly tehnologiýalar boýunça tejribeli ýerli hünärmenler tarapyndan işlenip taýýarlandy. Sanly ulgam arkaly awtomatiki usulda myhmanhana dolandyrylyşy SmartHotel bilen has aňsatlaşdy. Bu bolsa, netije babatynda işleriň gözegçiligine ygtybarlylygy artdyrar.",
     "desc2": "SmartHotel oňaýly ulanyjy interfeýsi, myhmanhana dolanşygynyň ähli ugurlaryna degişlilikde giňişleýin işjeňlik, ýerli serwerlerde gurnalan ygtybarly maglumat saklaýjy gurluşy ýaly ýeňillikler hödürlemek bilen bir hatarda, ol islendik görnüşdäki myhmanhanalara gurnalmaga hem gabat gelýär.",
     "desc3": "SmartHotel sanly dolandyryş ulgamy, front desk/resepsiýa hem-de back office/ofis amallary (integrirlenen buhgalteriýa bilen bilelikde), rezerwasiýa dolanşygy, housekeeping/hojalyk hyzmatlary, otaglaryň paýlanyşy, otaglaryň inwentarlarynyň gözegçiligi, şeýle hem buhgalteriýa işlerini we hasaplaşyk amallaryny alyp barmak ýaly mümkinçilikleri özünde jemleýär."
+  
   },
   "features": {
-    "title": "Käbir Aýratynlyklary",
+    "title": "Käbir funksiýalary",
     "frontdesk": "Front Desk",
     "housekeeping": "Housekeeping",
     "reporting": "Hasabat we Analitika",
@@ -51,22 +52,22 @@
     "title": "Nyrh meýilnamasy",
     "heading": "Amatly baha bilen sanly myhmanhana dolandyryş ulgamy",
     "description": "Ulgamyň ähli aýratynlyklaryny we tehniki goldawy öz içine alýan ýönekeý we anyk baha",
-    "request": "Talapnama ugradyň",
+    "request": "talapnama ugradyň",
     "dashboard": "Dolandyryş paneli",
-    "reception": "Reception",
-    "multipleUser": "Birnäçe ulanyjy",
+    "reception": "Front Desk",
+    "analitycs": "Hasabat we analitika",
     "housekeeping": "Housekeeping",
-    "support": "Hotline Support 24/7"
+    "support": "Yzgiderli tehniki goldaw"
   },
   "contact": {
     "heading": "Habarlaşmak",
-    "subheading": "Мы всегда здесь чтобы вам помочь",
+    "subheading": "Biz bilen habarlaşmak üçin",
     "location": "Olimpiýa şäherjigi, №:7, “Sport” işewürlik merkezi, Gat 5, ş.Aşgabat",
     "name": "Adyňyz",
     "mail": "E-Poçta",
     "phone": "Telefon belgiňiz",
     "subject": "Mowzuk",
     "message": "Hatyňyz",
-    "submit": "Ugratmak"
+    "submit": "ugratmak"
   }
 }
