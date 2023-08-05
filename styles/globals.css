@@ -5286,7 +5286,8 @@ input.main-search-input:-ms-input-placeholder {
 /* 12. price */
 .plan {
     border: 1px solid #ededed;
-    padding: 48px 35px;
+    padding: 10px 20px;
+    padding-top: 20px;
     transition: 0.3s;
 }
 
@@ -5403,7 +5404,7 @@ input.main-search-input:-ms-input-placeholder {
 
 .pr_body .pr_list {
     text-align: left;
-    padding-left: 40px;
+    padding-inline: 20px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
