@@ -22,7 +22,7 @@ const Download = () => {
 				</div>
 				<div className="col-xl-12">
 					<div className="dashbord_img-02 pos-rel pt-60 text-center animation" data-aos="fade-up">
-						<Image src={download} priority width={1000} height={600} style={{borderRadius: 10, objectFit: "cover", objectPosition: "top"}} alt="download"/>
+						<Image src={download} className="download-img" priority width={1000} height={600} style={{borderRadius: 10, objectFit: "cover", objectPosition: "top"}} alt="download"/>
 					</div>
 				</div>
 			</div>
