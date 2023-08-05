@@ -3,7 +3,7 @@
     "about": "Biz barada",
     "features": "Funksiýalar",
     "pricing": "Bahalar",
-    "partners": "Hyzmartdaşlarymyz",
+    "partners": "Hyzmatdaşlarymyz",
     "contact": "habarlaşmak"
   },
   "hero": {
@@ -17,7 +17,7 @@
     "desc2": "SmartHotel oňaýly ulanyjy interfeýsi, myhmanhana dolanşygynyň ähli ugurlaryna degişlilikde giňişleýin işjeňlik, ýerli serwerlerde gurnalan ygtybarly maglumat saklaýjy gurluşy ýaly ýeňillikler hödürlemek bilen bir hatarda, ol islendik görnüşdäki myhmanhanalara gurnalmaga hem gabat gelýär.",
     "desc3": "SmartHotel sanly dolandyryş ulgamy, front desk/resepsiýa hem-de back office/ofis amallary (integrirlenen buhgalteriýa bilen bilelikde), rezerwasiýa dolanşygy, housekeeping/hojalyk hyzmatlary, otaglaryň paýlanyşy, otaglaryň inwentarlarynyň gözegçiligi, şeýle hem buhgalteriýa işlerini we hasaplaşyk amallaryny alyp barmak ýaly mümkinçilikleri özünde jemleýär.",
     "features": {
-      "head": "Tapawutlanýan käbir özboluşly aýratynlyklary",
+      "head": "Tapawutlanýan käbir özboluşly aýratynlyklary:",
       "item1": "- Ulanyş babatynda aňsat we ýeňil",
       "item2": "- Ähli amallary dolandyrmak üçin çylşyrymly bolmadyk dolandyryş paneli",
       "item3": "- Çalt gurnamaga mümkinçilikli ulgam",
@@ -26,7 +26,7 @@
     }
   },
   "features": {
-    "title": "Käbir funksiýalary",
+    "title": "Käbir funksiýalary:",
     "frontdesk": "Front Desk",
     "housekeeping": "Housekeeping",
     "reporting": "Hasabat we Analitika",
