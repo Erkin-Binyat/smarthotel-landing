@@ -84,38 +84,38 @@ export const features = [
 
 export const coreFeatures = [
   {
-    title: "Detailed reports",
+    title: "detailedReports",
     content: {
-      title: "Reporting & Analytics",
-      heading: "Detailed reports",
-      desc: "Make sure your strategy adjustments are based on data, not on your gut instincts. Browse through all reports in the SHMS and really grasp how your business is going.",
+      title: "reportingAnalytics",
+      heading: "detailedReports2",
+      desc: "makeSure",
       img: "../assets/img/feature/report.jpg"
     }
   },
   {
-    title: "Well-organized lists",
+    title: "organizedLists",
     content: {
-      title: "",
-      heading: "Well-organized lists",
-      desc: "Consult convenient housekeeping and guest lists. Immediately add extra comments to keep your team informed.",
+      title: "wellLists",
+      heading: "organizedLists2",
+      desc: "consult",
       img: "../assets/img/feature/HOUSE.png"
     }
   },
   {
-    title: "User Experience",
+    title: "userExperience",
     content: {
-      title: "Progress & Customizations",
-      heading: "User Experience",
-      desc: "Get painless implementation, easy training, and an intuitive interface without sacrificing transparency.",
+      title: "progressCustomization",
+      heading: "userExperience2",
+      desc: "implementation",
       img: "../assets/img/feature/user.png"
     }
   },
   {
-    title: "Check-in & Check-out",
+    title: "checkIncheckOut",
     content: {
-      title: "Progress & Customizations",
-      heading: "Speed up your check-in & check-out",
-      desc: "Get a clear overview of all arriving guests and check-in guests in no-time, even group reservations. Quickly check who has already paid or not and speed up the process.",
+      title: "easyProcess",
+      heading: "speedUp",
+      desc: "speedProcess",
       img: "../assets/img/feature/reservation.png"
     }
   }
