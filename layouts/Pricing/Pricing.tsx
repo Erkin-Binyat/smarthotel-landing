@@ -13,9 +13,9 @@ const Pricing = () => {
                         <div className="row">
                             <div className="col-xxl-6 col-xl-6">
                                 <div className="section-title pt-20 mb-30">
-                                    <h5>{t("pricing.title")}</h5>
-                                    <h2>{t("pricing.heading")}</h2>
-                                    <p className="pt-30">{t("pricing.description")}</p>
+                                    <h5 style={{fontSize: 20}}>{t("pricing.title")}</h5>
+                                    <h2 style={{fontSize: 38}}>{t("pricing.heading")}</h2>
+                                    <p className="pt-30" style={{fontSize: 20}}>{t("pricing.description")}</p>
                                 </div>
                             </div>
                             <div className="col-xxl-5 offset-xxl-1 col-xl-5 offset-xl-1">
