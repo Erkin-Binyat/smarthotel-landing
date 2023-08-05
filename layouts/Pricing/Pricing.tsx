@@ -25,12 +25,11 @@ const Pricing = () => {
                                             <div className="row pb-100">
                                                 <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                                                     <div className="plan pos-rel active text-center mb-30">
-                                                        <div className="pr_head"></div>
                                                         <div className="pr_body mb-20">
                                                             <ul className="pr_list">
                                                                 <li><FaCheck size={12} />  {t("pricing.dashboard")}</li>
                                                                 <li><FaCheck size={12} />  {t("pricing.reception")}</li>
-                                                                <li><span><FaCheck size={12} />  {t("pricing.multipleUser")}</span></li>
+                                                                <li><span><FaCheck size={12} />  {t("pricing.analitycs")}</span></li>
                                                                 <li><FaCheck size={12} />  {t("pricing.housekeeping")}</li>
                                                                 <li><FaCheck size={12} />  {t("pricing.support")}</li>
                                                             </ul>
