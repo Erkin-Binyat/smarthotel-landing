@@ -1,4 +1,8 @@
+import { useTranslation } from "next-i18next";
+
 const Download = () => {
+	const { t } = useTranslation();
+
   return (
     <section className="download-area pos-rel pt-125 pb-130">
 		<div className="download-shape d-none d-sm-inline-block"></div>
@@ -9,10 +13,8 @@ const Download = () => {
 				<div className="col-xxl-8 col-xl-8 offset-xxl-2 offset-xl-2" data-wow-delay="0.1s">
 					<div className="download_wrapper">
 						<div className="section-title white-title text-center mb-50">
-							<h5 className="animation" data-aos="fade">One platform, endless opportunities
-							</h5>
-							<h2 className="animation" data-aos="fade-up">Built for hotels of all sizes
-							</h2>
+							<h5 className="animation" data-aos="fade">{t("download.platform")}</h5>
+							<h2 className="animation" data-aos="fade-up">{t("download.heading")}</h2>
 						</div>
 					</div>
 				</div>
