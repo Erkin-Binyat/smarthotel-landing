@@ -18,7 +18,7 @@ const CoreFeature = ({service, activeTab}: CoreFeatureProps) => {
         <div className="feature_wrapper_02 mb-30">
           <div className="section-title text-left mb-35">
             <h5>{t(`coreFeatures.${title}`)}</h5>
-            <h2>{t(`coreFeatures.${heading}`)}</h2>
+            <h3>{t(`coreFeatures.${heading}`)}</h3>
             <p className="mt-30">{t(`coreFeatures.${desc}`)}</p>
           </div>
         </div>
