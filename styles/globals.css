@@ -10265,4 +10265,28 @@ input[type=checkbox] {
     }
 }
 
+@media (max-width: 1024px) {
+    .download-img {
+        height: 500px;
+    }
+}
+
+@media (max-width: 800px){
+    .download-img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-feature {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .download-img {
+        height: 180px;
+    }
+}
+
 /*# sourceMappingURL=main.css.map */
