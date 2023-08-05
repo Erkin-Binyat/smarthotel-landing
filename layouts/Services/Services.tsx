@@ -2,12 +2,14 @@
 import { useEffect, useMemo, useState } from "react";
 import { coreFeatures } from "@/public/static";
 import { CoreFeature, Accordion } from "@/components";
+import { useTranslation } from "next-i18next";
 
 const Services = () => {
 	const [services, setServices] = useState(coreFeatures);
 	const [index, setIndex] = useState(1);
 	const [isMobile, setIsMobile] = useState(true);
 	const width = window.innerWidth;
+	const { t } = useTranslation();
 
 	useEffect(() => {
 		if (width < 560) {
@@ -27,7 +29,7 @@ const Services = () => {
 			return (
 				<li className="nav-item" role="presentation" key={i}>
 					<a className={activeTab ? "nav-link active" : "nav-link"} style={{ cursor: "pointer" }} id="home-tab" onClick={() => setIndex(active)} role="tab" aria-controls="home" aria-selected="true">
-						<i className="flaticon-product"></i> {title}
+						<i className="flaticon-product"></i> {t(`coreFeatures.${title}`)}
 					</a>
 				</li>
 			)
@@ -44,6 +46,7 @@ const Services = () => {
 		}) : null
 	}, [services, index]);
 
+	//	Rendering service content | Mobile
 	const serviceAccordion = useMemo(() => {
 		return services ? services.map((service, index) => {
 			return <Accordion service={service} index={index} key={index} />
