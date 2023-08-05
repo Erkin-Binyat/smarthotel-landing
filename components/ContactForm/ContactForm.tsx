@@ -1,12 +1,14 @@
 import { useTranslation } from "next-i18next";
 import { useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const ContactForm = () => {
   const { t } = useTranslation();
   const [ user, setUser ] = useState({
     name: "", email: "", subject: "", message: ""
   });
+  const [ isLoading, setLoading ] = useState(false);
 
   const reset = () => {
     setUser({
@@ -22,7 +24,7 @@ const ContactForm = () => {
     const abortTimeoutId = setTimeout(() => abortLongFetch.abort(), 7000);
 
     e.preventDefault();
-
+    setLoading(true)
     fetch("/api/contact", {
       signal: abortLongFetch.signal,
       method: "POST",
@@ -32,6 +34,7 @@ const ContactForm = () => {
       body: JSON.stringify(user)
     }).then((res) => {
       console.log(res.ok);
+      setLoading(false);
       if(res.ok){
         clearTimeout(abortTimeoutId);
         return res.json();
@@ -39,8 +42,11 @@ const ContactForm = () => {
 
       throw new Error('Whoops! Error sending email.');
     }).then((res) => {
+      toast.success("Your mail was sent successfully!", { position: "bottom-center", hideProgressBar: true });
       reset();
     }).catch((error) => {
+      setLoading(false);
+      toast.error("Your mail couldn't be sent, Try again, please!", { position: "bottom-center", hideProgressBar: true});
       console.log(error);
     });
   };
@@ -74,7 +80,7 @@ const ContactForm = () => {
     <div className="row">
       <div className="col-12">
         <div className="subs-btn">
-          <button className="theme_btn theme_btn_bg btn d-flex align-items-center" type="submit">{t("contact.submit")} <FaChevronRight /></button>
+          <button className="theme_btn theme_btn_bg btn d-flex align-items-center" type="submit">{isLoading ? "Loading..." : <>{t("contact.submit")} <FaChevronRight /></>}</button>
         </div>
       </div>
     </div>
