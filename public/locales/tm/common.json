@@ -80,5 +80,26 @@
     "subject": "Mowzuk",
     "message": "Hatyňyz",
     "submit": "ugratmak"
+  },
+  "coreFeatures": {
+    "detailedReports": "Jikme-jik hasabatlar",
+    "organizedLists": "Amatly sanawnamalar",
+    "userExperience": "Ulanyjy tejribesi",
+    "checkIncheckOut": "Check-in & Check-out",
+
+    "reportingAnalytics": "Hasabat we Analitika",
+    "wellLists": "",
+    "progressCustomization": "Progres we düzedişler",
+    "easyProcess": "Aňsat rezerwasiýa prosesi",
+
+    "detailedReports2": "Jikme-jik hasabatlar",
+    "organizedLists2": "Amatly sanawnamalar",
+    "userExperience2": "Ulanyjy tejribesi",
+    "speedUp": "Bron etmek, ýerleşmek we çykmagy çaltlaşdyrmak",
+
+    "makeSure": "Strategiýaňyzy instinktleriňize däl-de, maglumatlara esaslandyryň. SmartHotel bilen ähli hasabatlar we analitiki maglumatlar siziň eliňiziň astynda.",
+    "consult": "Möhüm bolan ähli sanawnamalara aňsatlyk bilen ýetiň.",
+    "implementation": "SmartHotel, ulanmaga ýeňil, öwrenmage aňsat interfeýs hödürleýär.",
+    "speedProcess": "SmartHotel, gelýän we gidýän myhmanlar barada maglumatlary, hasaplaryň tölenip tölenmedigi baradaky maglumatlary tiz wagtda almak bilen prosesi çaltlaşdyrmaga ýardam berer."
   }
 }
