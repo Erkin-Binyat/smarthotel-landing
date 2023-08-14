@@ -7,6 +7,8 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import ScrollTop from '@/components/ScrollTop/ScrollTop';
 
+
+
 export default function Home() {
   const [loading, setLoading] = useState<boolean>(true);
 
