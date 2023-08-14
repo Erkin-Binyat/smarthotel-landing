@@ -6,8 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "server": "serve ./build",
-    "smart": "next start ./smart",
     "export": "next export",
     "lint": "next lint"
   },
