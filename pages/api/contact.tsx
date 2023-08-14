@@ -21,7 +21,7 @@ export default async function handler(req: any, res: any){
       to: process.env.NEXT_EMAIL_USER,
       subject: subject,
       text: message,
-      html: `<div><h1>${subject}</h1><br/><p>${message}</p><br/><h4>Best Regards, ${name}!</h4></div>`
+      html: `<div><h2>from: ${email}</h2><br/><h2>name: ${name}</h2><h1>${subject}</h1><br/><p>${message}</p><br/><h4>Best Regards, ${name}!</h4></div>`
     })
     .then((response) => {
       res.status(200).json({ error: false, emailSent: true, errors: [], response });
